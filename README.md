@@ -1,125 +1,360 @@
-# 🛠️ Trabajo Final de Base de Datos 🛠️
+# Trabajo Final: Sistema de Gestión de Tiendas - Base de Datos  
 
-## 📄 Documentación 📄
+## 📋 Departamento de Tecnología Digital  
+**Carrera:** Diseño y Desarrollo de Software  
+**Sección:** 2B 24-C  
+**Curso:** Base de Datos
 
-### 🚀 Equipo Digital 🚀
-#### 📑 Resumen Ejecutivo 📑
+**Integrantes:**  
+- Diego Alexis Ccaihuari Tintaya  
+- Anderson Miguel Ninahuaman Yuto  
+- Jheremy Strong Delgado Gomez  
+- Joshua Gallarday Salazar  
 
-- **Docente:** Elliot Garamendi  
-- **Carrera:** Diseño y Desarrollo de Software  
-- **Sección:** 2B 24-C  
-- **Integrantes:**
-  - Diego Alexis Ccaihuari Tintaya
-  - Anderson Miguel Ninahuaman Yuto
-  - Jheremy Strong Delgado Gomez
-  - Joshua Gallarday Salazar
+**Docente:** Elliot Garamendi  
 
-**📅 2024-2 📅**
-
----
-
-## 📑 Índice 📑
-1. [📄 Introducción 📄](#📄-introducción-📄)
-2. [🚀 Prototipo 🚀](#🚀-prototipo-🚀)
-3. [⚙️ Funcionalidades ⚙️](#⚙️-funcionalidades-⚙️)
-4. [📊 Modelo de Datos 📊](#📊-modelo-de-datos-📊)
-   1. [Entidades Principales](#entidades-principales)
-   2. [Relaciones Entre Entidades](#relaciones-entre-entidades)
-5. [🎨 Diseño de la Interfaz (Canva) 🎨](#🎨-diseño-de-la-interfaz-canva-🎨)
-6. [🛠️ Consultas SQL (Querys) 🛠️](#🛠️-consultas-sql-querys-🛠️)
+**Lugar y Fecha:** Lima, Perú - 2024-2  
 
 ---
 
-## 📄 Introducción 📄
+## 📖 Introducción  
 
-El proyecto tiene como objetivo principal diseñar e implementar un sistema de gestión basado en bases de datos para una tienda de electrodomésticos. Este sistema digitaliza procesos clave como la administración de inventario, empleados, ventas y promociones, facilitando la toma de decisiones a través de una interfaz intuitiva y centralizada.
-
----
-
-## 🚀 Prototipo 🚀
-
-La plataforma está diseñada para:
-- Mejorar la organización y monitoreo de la tienda.
-- Ofrecer herramientas para la toma de decisiones estratégicas.
-- Incrementar la eficiencia operativa y la colaboración entre empleados.
+El sistema desarrollado tiene como propósito facilitar la organización, el monitoreo y la toma de decisiones dentro de una tienda, mediante una plataforma digital integrada que centraliza información clave y ofrece herramientas para la gestión de inventarios, promociones, empleados, sucursales y más. Este enfoque promueve la eficiencia operativa y fomenta la colaboración entre los empleados.
 
 ---
 
-## ⚙️ Funcionalidades ⚙️
+## 🛠️ Funcionalidades  
 
-### 🛒 Módulo de Inventario:
-- Control y monitoreo de productos disponibles.
-- Filtros por sucursal para la gestión de múltiples ubicaciones.
+### 🔢 Módulo de Inventario  
+- **Objetivo:**  
+  Controlar y rastrear productos disponibles en stock.  
 
-### 🛠️ Gestión de Empleados:
-- Registro centralizado con datos básicos y roles.
-- Comunicación interna y seguimiento de recursos humanos.
-
-### 🔔 Notificaciones:
-- Sistema centralizado para eventos como errores técnicos o mantenimientos.
-
-### 💸 Módulo de Promociones:
-- Registro y visualización de ofertas activas para alinear estrategias de ventas.
-
-### ⚙️ Menú de Configuración:
-- Personalización según las necesidades del negocio.
+- **Beneficios:**  
+  - Evita problemas de desabastecimiento o sobrestock.  
+  - Gestión optimizada de múltiples sucursales mediante filtros avanzados por ubicación.  
 
 ---
 
-## 📊 Modelo de Datos 📊
-
-### Entidades Principales
-1. **Inventario**: Representa los productos disponibles en una sucursal.  
-2. **Producto**: Detalla la información de cada artículo.  
-3. **Sucursal**: Registra las ubicaciones físicas de la tienda.  
-4. **Promoción**: Maneja descuentos y ofertas.  
-5. **Cliente**: Incluye información personal de los compradores.  
-6. **Venta**: Registra las transacciones realizadas.  
-7. **Empleado**: Gestiona el personal de la tienda.  
-8. **Método de Pago**: Define las opciones de pago disponibles.  
-
-### Relaciones Entre Entidades
-- **Producto → Inventario**: Asociación de productos a su inventario.
-- **Sucursal → Inventario**: Relación entre sucursales e inventarios.
-- **Cliente → Venta**: Asociación de clientes con sus compras.
-- **Promoción → Producto**: Aplicación de descuentos a productos específicos.
+### 📦 Detalles de Productos  
+- **Descripción:**  
+  Proveer información detallada de los productos, como historial de precios, garantías y devoluciones.  
+- **Impacto:**  
+  Permite una mejor toma de decisiones para los administradores y empleados.  
 
 ---
 
-## 🎨 Diseño de la Interfaz (Canva) 🎨
+### 👨‍💼 Gestión de Empleados  
+- **Objetivo:**  
+  Centralizar y organizar información clave de los empleados, como roles y contactos.  
 
-El diseño de la interfaz para este sistema fue realizado en Canva. Puedes acceder al prototipo interactivo haciendo clic en el enlace a continuación:  
-
-[🎨 Ver Prototipo en Canva 🎨](https://www.canva.com/design/DAGYUHnDdzg/n1P7AFnxRfNyjsuhlsybag/edit)  
+- **Beneficios:**  
+  - Facilita la comunicación interna.  
+  - Mejora el seguimiento del personal.  
 
 ---
 
-## 🛠️ Consultas SQL (Querys) 🛠️
+### 📢 Notificaciones  
+- **Descripción:**  
+  Sistema que centraliza la difusión de alertas sobre eventos importantes, como errores técnicos, promociones o mantenimiento.  
 
-### 1. Consultar Inventario por Sucursal
+---
+
+### 🎉 Módulo de Promociones  
+- **Objetivo:**  
+  Ofrecer una herramienta para gestionar promociones activas, alineando estrategias de marketing y ventas.  
+
+---
+
+### ⚙️ Menú de Configuración  
+- **Descripción:**  
+  Permite personalizar la plataforma según las necesidades de la tienda, adaptándose a cambios en la estructura organizativa o en políticas de permisos.  
+
+---
+
+### 📍 Gestión de Sucursales  
+- **Funciones:**  
+  - Registro de sucursales con detalles como dirección, ciudad y código postal.  
+  - Filtrado por zonas para una mejor organización.  
+
+---
+
+## 📊 Diagrama de Entidad-Relación  
+
+El siguiente diagrama representa la estructura general del sistema:  
+
+![Diagrama de Entidad-Relación](ruta/a/imagen_diagrama.png)  
+
+---
+
+## 📑 Descripción de las Entidades  
+
+### **1. Sucursal**  
+- **Descripción:**  
+  Representa las sucursales donde se almacenan los productos.  
+- **Campos:**  
+  - `idSucursal` (PK): Identificador único.  
+  - `nombre`: Nombre de la sucursal.  
+  - `direccion`: Dirección completa.  
+  - `ciudad`: Ciudad donde se encuentra.  
+  - `estado`: Estado de la sucursal.  
+  - `codigo_postal`: Código postal de 5 caracteres.  
+  - **Restricciones:**  
+    - `chk_codigo_postal`: Longitud fija de 5 caracteres para el código postal.  
+
+---
+
+### **2. Empleado**  
+- **Descripción:**  
+  Detalla los empleados que laboran en la empresa.  
+- **Campos:**  
+  - `idEmpleado` (PK): Identificador único.  
+  - `nombre`: Nombre del empleado.  
+  - `apellido`: Apellido del empleado.  
+  - `telefono`: Número de contacto.  
+  - `email`: Dirección de correo electrónico.  
+  - `cargo`: Puesto o rol en la empresa.  
+  - **Restricciones:**  
+    - `chk_email_empleado`: Verificación del formato de email.  
+
+---
+
+### **3. Categoría**  
+- **Descripción:**  
+  Clasifica los productos en diferentes tipos o grupos.  
+- **Campos:**  
+  - `idCategoria` (PK): Identificador único.  
+  - `nombre`: Nombre de la categoría.  
+  - `estado`: Estado (Activo/Inactivo).  
+  - `tipo`: Tipo de categoría.  
+  - `Descripcion`: Descripción de la categoría.  
+  - **Restricciones:**  
+    - `chk_estado_categoria`: El estado debe ser "Activo" o "Inactivo".  
+
+---
+
+### **4. Producto**  
+- **Descripción:**  
+  Detalla los productos disponibles.  
+- **Campos:**  
+  - `idProducto` (PK): Identificador único.  
+  - `nombre`: Nombre del producto.  
+  - `marca`: Marca del producto.  
+  - `modelo`: Modelo del producto.  
+  - `categoria`: Categoría del producto.  
+  - `precio`: Precio actual.  
+  - `fecha_ingreso`: Fecha de ingreso al inventario.  
+  - **Restricciones:**  
+    - `chk_precio`: El precio debe ser mayor a 0.  
+
+---
+
+### **5. Cliente**  
+- **Descripción:**  
+  Representa a los clientes que compran productos.  
+- **Campos:**  
+  - `idCliente` (PK): Identificador único.  
+  - `nombres`: Nombres del cliente.  
+  - `paterno`: Apellido paterno.  
+  - `materno`: Apellido materno.  
+  - `direccion`: Dirección del cliente.  
+  - `telefono`: Número de contacto.  
+  - `email`: Dirección de correo electrónico.  
+  - **Restricciones:**  
+    - `chk_email_cliente`: Verificación del formato de email.  
+
+---
+
+### **6. Venta**  
+- **Descripción:**  
+  Registra las ventas realizadas.  
+- **Campos:**  
+  - `idVenta` (PK): Identificador único.  
+  - `fecha_venta`: Fecha en que se realizó la venta.  
+  - `total`: Total de la venta.  
+  - **Restricciones:**  
+    - `chk_total_venta`: El total debe ser mayor o igual a 0.  
+
+---
+
+### **7. Detalle de Venta**  
+- **Descripción:**  
+  Registra los detalles de cada producto vendido.  
+- **Campos:**  
+  - `idDetalle_venta` (PK): Identificador único.  
+  - `cantidad`: Cantidad de productos vendidos.  
+  - `precio_unitario`: Precio por unidad del producto.  
+  - `descuento`: Descuento aplicado.  
+  - **Restricciones:**  
+    - `chk_cantidad`: La cantidad debe ser mayor a 0.  
+
+---
+
+### **8. Inventario**  
+- **Descripción:**  
+  Representa el inventario de productos en una sucursal.  
+- **Campos:**  
+  - `idInventario` (PK): Identificador único.  
+  - `producto_id`: Relación con el producto.  
+  - `fecha_ultima_actualizacion`: Última fecha de modificación.  
+
+---
+
+### **9. Promoción**  
+- **Descripción:**  
+  Registra las promociones activas.  
+- **Campos:**  
+  - `idPromocion` (PK): Identificador único.  
+  - `descuento_porcentaje`: Porcentaje de descuento.  
+  - `fecha_inicio`: Fecha de inicio de la promoción.  
+  - `fecha_fin`: Fecha de finalización de la promoción.  
+  - **Restricciones:**  
+    - `chk_fechas_promocion`: La fecha de inicio debe ser anterior o igual a la de fin.  
+
+---
+
+### **10. Garantía**  
+- **Descripción:**  
+  Registra las garantías otorgadas en las ventas.  
+- **Campos:**  
+  - `idGarantia` (PK): Identificador único.  
+  - `fecha_inicio`: Fecha de inicio de la garantía.  
+  - `fecha_fin`: Fecha de fin de la garantía.  
+  - `cobertura`: Detalles de la cobertura.  
+  - **Restricciones:**  
+    - `chk_fechas_garantia`: La fecha de inicio debe ser anterior o igual a la de fin.  
+
+---
+
+## 📚 Relaciones entre Entidades  
+
+- **Empleado y Venta:**  
+  - Un empleado puede realizar varias ventas (`Empleado.idEmpleado -> Venta.idEmpleado`).  
+
+- **Cliente y Venta:**  
+  - Un cliente puede estar asociado a varias ventas (`Cliente.idCliente -> Venta.idCliente`).  
+
+- **Venta y Detalle de Venta:**  
+  - Cada venta puede tener múltiples detalles de productos (`Venta.idVenta -> Detalle_venta.idVenta`).  
+
+- **Producto y Detalle de Venta:**  
+  - Un producto puede estar asociado a múltiples detalles de venta (`Producto.idProducto -> Detalle_venta.idProducto`).  
+
+- **Producto y Inventario:**  
+  - Un producto puede estar en múltiples inventarios de distintas sucursales (`Producto.idProducto -> Inventario.producto_id`).  
+
+- **Sucursal y Inventario:**  
+  - Una sucursal puede tener múltiples inventarios (`Sucursal.idSucursal -> Inventario.Sucursal_idSucursal`).  
+
+- **Producto y Categoría:**  
+  - Un producto puede pertenecer a varias categorías y viceversa (relación N:M, mediante `Producto_has_Categoria`).  
+
+- **Detalle de Venta y Garantía:**  
+  - Un detalle de venta puede estar relacionado con una garantía (`Detalle_venta.idDetalle_venta -> Garantia.Detalle_venta_idDetalle`).  
+
+- **Promoción:**  
+  - Asociada a productos mediante lógica del sistema o reglas adicionales (no FK explícita).  
+
+---
+
+## 🔍 Consultas SQL  
+
+### Creacion de tablas
+
+#### **1. Sucursal**  
 ```sql
-SELECT * 
-FROM Inventario 
-WHERE Sucursal_idSucursal = 1;
+CREATE TABLE Sucursal (
+    idSucursal NUMBER PRIMARY KEY,
+    nombre VARCHAR2(45) NOT NULL,
+    direccion VARCHAR2(255) NOT NULL,
+    ciudad VARCHAR2(45) NOT NULL,
+    estado VARCHAR2(45) NOT NULL,
+    codigo_postal CHAR(10) NOT NULL,
+    CONSTRAINT chk_codigo_postal CHECK (LENGTH(codigo_postal) = 5)
+);
 ```
-### 2. Obtener Ventas Totales por Empleado
+#### **2. Empleado**  
 ```sql
-SELECT Empleado.nombre, SUM(Venta.total) AS Ventas_Totales
-FROM Venta
-INNER JOIN Empleado ON Venta.Empleado_idEmpleado = Empleado.idEmpleado
-GROUP BY Empleado.nombre;
+CREATE TABLE Empleado (
+    idEmpleado NUMBER PRIMARY KEY,
+    nombre VARCHAR2(45) NOT NULL,
+    apellido VARCHAR2(45) NOT NULL,
+    telefono VARCHAR2(15) NOT NULL,
+    email VARCHAR2(45) NOT NULL,
+    cargo VARCHAR2(45) NOT NULL,
+    CONSTRAINT chk_email_empleado CHECK (REGEXP_LIKE(email, '^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$'))
+);
 ```
-### 3. Obtener Ventas Totales por Empleado
+#### **3. Categoria**  
 ```sql
-SELECT * 
-FROM Promocion 
-WHERE fecha_fin > CURRENT_DATE;
+CREATE TABLE Categoria (
+    idCategoria NUMBER PRIMARY KEY,
+    nombre VARCHAR2(45) NOT NULL,
+    estado VARCHAR2(45) DEFAULT 'Activo',
+    tipo VARCHAR2(45) NOT NULL,
+    Descripcion VARCHAR2(255),
+    CONSTRAINT chk_estado_categoria CHECK (estado IN ('Activo', 'Inactivo'))
+);
 ```
-### 4. Obtener Ventas Totales por Empleado
+#### **4. Producto**  
 ```sql
-SELECT Producto.nombre, Detalle_Venta.cantidad, Detalle_Venta.precio_unitario
-FROM Detalle_Venta
-INNER JOIN Producto ON Detalle_Venta.Producto_idProducto = Producto.idProducto
-WHERE Detalle_Venta.Venta_idVenta = 123;
-
+CREATE TABLE Producto (
+    idProducto NUMBER PRIMARY KEY,
+    nombre VARCHAR2(45) NOT NULL,
+    marca VARCHAR2(45) NOT NULL,
+    modelo VARCHAR2(45),
+    categoria VARCHAR2(45) NOT NULL,
+    precio NUMBER NOT NULL,
+    fecha_ingreso DATE NOT NULL,
+    CONSTRAINT chk_precio CHECK (precio > 0)
+);
+```
+#### **5. Cliente**  
+```sql
+CREATE TABLE Cliente (
+    idCliente NUMBER PRIMARY KEY,
+    nombres VARCHAR2(45) NOT NULL,
+    paterno VARCHAR2(45) NOT NULL,
+    materno VARCHAR2(45),
+    direccion VARCHAR2(45) NOT NULL,
+    telefono VARCHAR2(15),
+    email VARCHAR2(100),
+    CONSTRAINT chk_email_cliente CHECK (REGEXP_LIKE(email, '^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$'))
+);
+```
+#### **6. Venta**  
+```sql
+    idVenta NUMBER PRIMARY KEY,
+    fecha_venta DATE NOT NULL,
+    total NUMBER(10,2) NOT NULL,
+    idEmpleado NUMBER,
+    idCliente NUMBER,
+    CONSTRAINT fk_venta_empleado FOREIGN KEY (idEmpleado) REFERENCES Empleado(idEmpleado),
+    CONSTRAINT fk_venta_cliente FOREIGN KEY (idCliente) REFERENCES Cliente(idCliente),
+    CONSTRAINT chk_total_venta CHECK (total >= 0)
+);
+```
+#### **7. DetalleVenta**  
+```sql
+CREATE TABLE Detalle_venta (
+    idDetalle_venta NUMBER PRIMARY KEY,
+    cantidad NUMBER NOT NULL,
+    precio_unitario NUMBER(10,2) NOT NULL,
+    descuento NUMBER DEFAULT 0,
+    idVenta NUMBER,
+    idProducto NUMBER,
+    CONSTRAINT fk_detalle_venta FOREIGN KEY (idVenta) REFERENCES Venta(idVenta),
+    CONSTRAINT fk_detalle_producto FOREIGN KEY (idProducto) REFERENCES Producto(idProducto),
+    CONSTRAINT chk_cantidad CHECK (cantidad > 0)
+);
+```
+#### **7. Metodo_De_pago**  
+```sql
+CREATE TABLE Metodo_de_Pago (
+    idMetodo_de_Pago NUMBER PRIMARY KEY,
+    Tipo VARCHAR2(45) NOT NULL,
+    Descripcion VARCHAR2(45),
+    Codigo VARCHAR2(45),
+    idVenta NUMBER,
+    CONSTRAINT fk_metodo_pago_venta FOREIGN KEY (idVenta) REFERENCES Venta(idVenta)
+);
 ```
